@@ -5,14 +5,15 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>carrousel</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css>
     <script src='main.js'></script>
     <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 
 <body>
     <div class="carrousel" x-data="{}">
-        <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"><</button><button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
+        <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"><</button><button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant"> > </button>
+
         <div class="carrousel_parent-ecrans">
             <div id="ecran-1" class="carrousel_ecran">
                 <figure>
@@ -45,6 +46,7 @@
                 </figure>
             </div>
         </div>
+
         <ul class="caroussel_liste-liens">
             <li><a href="#ecran-1" class="caroussel_lien">ecran 1</a></li>
             <li><a href="#ecran-2" class="caroussel_lien">ecran 2</a></li>
