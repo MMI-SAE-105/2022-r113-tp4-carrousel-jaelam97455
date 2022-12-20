@@ -17,9 +17,13 @@ display flex none
     .carrousel_parent-ecrans {
       /* aligne horizontalement les enfants */
       display: flex;
-
       /* largeur du parent */
       width: 100%;
+
+      overflow-x: scroll;
+     /* permet de scroller horizontalement */
+     scroll-behavior: smooth; /* animation de défilement */
+     scroll-snap-type: x mandatory;
 
     }
     .carrousel_ecran {
@@ -31,5 +35,5 @@ display flex none
     }
     .carrousel_ecran figure {
       /* enlève les marges par défaut */
-      margin: 0;
+      margin: none;
     }
